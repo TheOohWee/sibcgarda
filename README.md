@@ -4,6 +4,9 @@ This repo implements **Group 3** of the course project: a small **bottom-up** pi
 
 ---
 
+
+### I just found out there is some problem with transcripts here (some .txt look strange), but scores were calculated fine.
+
 ## What this is for
 
 - **Earnings themes**: demand, hiring, pricing, capex, AI, efficiency — keyword density plus sentiment (VADER) on sentences that mention each theme.
