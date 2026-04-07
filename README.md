@@ -1,6 +1,6 @@
 # Earnings + AI Labor Signals (Group 3)
 
-This repo implements **Group 3** of the course project: a small **bottom-up** pipeline that scores **earnings call transcripts** for macro-relevant themes and for an **AI / labor / productivity** proxy, then **aggregates scores by region** for handoff to integration (Group 4).
+This repo implements one of the deliverables for the Garda Capital Partners Student International Business Council Finance project: a small **bottom-up** pipeline that scores **earnings call transcripts** for macro-relevant themes and for an **AI / labor / productivity** proxy, then **aggregates scores by region** for handoff to integration (Group 4).
 
 ---
 
@@ -16,7 +16,7 @@ The broader project goal (see `task.md`) is to combine regional scores from mult
 
 ---
 
-## What we did (step by step)
+## What I did (step by step)
 
 1. **Defined the assignment scope**  
    Per `task.md`: ~10–20 companies, transcripts, theme tracking, simple keyword/sentiment scoring, regional earnings and AI scores, plus a transcript/theme summary file.
@@ -25,7 +25,7 @@ The broader project goal (see `task.md`) is to combine regional scores from mult
    Companies span consumer, tech, energy, healthcare, REITs, etc., with **regions** such as `North_America`, `Asia_Pacific`, and `Latin_America` (see `data/companies.csv`).
 
 3. **Collected transcript text**  
-   Plain-text files under `data/transcripts/` (paths listed in `companies.csv`).
+   Plain-text files under `data/transcripts/` (paths listed in `companies.csv`). Manually cleaned and prepared them for sentiment extraction. 
 
 4. **Centralized scoring logic** (`scoring_utils.py`)  
    - Word counts, keyword hit counts (word-boundary aware for single tokens).  
